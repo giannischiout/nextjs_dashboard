@@ -1,0 +1,150 @@
+
+@import "./material.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: #575353;
+  font-weight: 300;
+  overflow: hidden;
+  background-color: #EEF2F6;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1f2020;
+}
+
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+
+p,
+input,
+span {
+  color: #373737;
+}
+/* Custom ScrollBar */
+
+form {
+  width: 100%;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #efefef9a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cdcdcda7;
+  border-radius: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+
+
+.e-grid {
+  border: none;
+}
+
+
+.e-control .e-toolbar{
+  border-radius: 6px 6px 0px 0px;
+  border-top: none;
+}
+.e-gridpager  {
+  border-radius: 0px 0px 6px 6px;
+}
+
+/* SPREADSHIT */
+
+.e-lib {
+  border-radius: 6px 6px 0px 0px;
+
+  border: none;
+}
+/* //marerial css */
+.e-sheet-tab-panel {
+  border-radius: 0px 0px 6px 6px;
+}
+
+.e-spreadsheet {
+  border: none;
+}
+
+
+
+/* CHART 2 */
+#charts2 {
+    text-align: left;
+    width: 100%;
+}
+.e.chart {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
